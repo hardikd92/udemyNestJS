@@ -1,15 +1,8 @@
-### List all messages
-
-GET http://localhost:3000/messages
-
-### Get selected Message
-
-GET  http://localhost:3000/messages/861
-
-### Create a new messages
-POST http://localhost:3000/messages
+### Signup user (Create user)
+POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "content" : "Hello! Hi"
+    "email" : "hardik.bhatia@yahoo.com",
+    "password" : "Hardik@123"
 }
